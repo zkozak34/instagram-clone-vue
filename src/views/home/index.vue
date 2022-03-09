@@ -1,52 +1,53 @@
 <template>
-  <div>
-    <CustomText tag="p" size="normal">Home</CustomText>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci aliquam consequatur corporis cumque dolore
-      eius expedita inventore modi molestias nemo optio porro provident ratione rem, sed similique vitae
-      voluptatum. </p>
+  <div class="home">
+      <div class="timeline">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+      </div>
+      <div class="sidebar">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet consectetur dolor eius excepturi fugiat impedit, minima modi nisi porro quisquam quo repellat rerum sapiente sit, unde veniam! Eveniet, reprehenderit. </p>
+      </div>
   </div>
 </template>
 
 <script>
-import CustomText from '@/components/CustomText'
 
 export default {
   name: 'HomeView',
   components: {
-    CustomText,
   }
 }
 </script>
+
+<style>
+.home {
+  max-width: 605px;
+  margin: 0 auto;
+  @media (--t) {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 1fr 295px;
+    grid-gap: 30px;
+  }
+}
+
+.sidebar {
+  display: none;
+  @media (--t) {
+    display: block;
+  }
+}
+</style>
