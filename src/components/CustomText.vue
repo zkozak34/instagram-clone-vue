@@ -13,6 +13,7 @@ export default {
       default: "span"
     },
     size: {
+      type: String,
       default: "normal",
       validator: function(value) {
         return ["normal", "small", "xsmall", "xxsmall"].indexOf(value) !== -1;
