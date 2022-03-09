@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <CustomText tag="h1" size="normal">About</CustomText>
   </div>
 </template>
+
+<script>
+import CustomText from "@/components/CustomText";
+
+export default {
+  name: "AboutView",
+  components: {
+    CustomText
+  }
+};
+</script>
