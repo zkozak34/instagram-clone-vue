@@ -19,9 +19,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.main {
-  padding-top: 20px;
-}
-</style>

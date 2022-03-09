@@ -53,15 +53,25 @@ export default {
 
 <style scoped>
 .header {
-
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
   border-bottom: 1px solid rgba(var(--b6a));
 }
 
 .header-inner {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  height: var(--header-height);
+  display: flex;
   align-items: center;
-  height: 60px;
+  justify-content: center;
+  @media (--t) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
 }
 
 .logo {
@@ -70,29 +80,50 @@ export default {
 }
 
 .search {
-  text-align: center;
+  display: none;
 
-  input {
-    width: 215px;
-    height: 28px;
-    border: 1px solid rgb(var(--b6a));
-    border-radius: 4px;
-    background-color: rgb(var(--b3f));
-    padding: 0 20px;
-  }
+  @media (--t) {
+    display: block;
+    text-align: center;
 
-  input:focus {
-    outline: none;
+    input {
+      width: 215px;
+      height: 28px;
+      border: 1px solid rgb(var(--b6a));
+      border-radius: 4px;
+      background-color: rgb(var(--b3f));
+      padding: 0 20px;
+    }
+
+    input:focus {
+      outline: none;
+    }
   }
 }
 
 .navigation {
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  height: 80px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid rgba(var(--b6a));
 
-  a {
-    margin-left: 20px;
+  @media (--t) {
+    border: 0;
+    height: auto;
+    position: static;
+    justify-content: flex-end;
+
+    a {
+      margin-left: 20px;
+    }
   }
+
 }
 </style>
